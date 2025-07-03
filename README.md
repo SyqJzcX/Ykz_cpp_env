@@ -21,12 +21,19 @@
 ## 3. 容器工作目录
 
 事先准备：安装配置`Docker`与`Vscode`。
+
 进入`doc_cmake_proj`目录构建容器：
+
 在`Vscode`中按下`Ctrl + Shift + P`进入命令面板，点击`Dev Containers:Reopen in Container`构建容器。
+
 构建完成后的工作区在`\workspaces`中。
+
 进入`\workspaces\doc_cmake_proj`目录编写`C/C++`代码与`CMakeLists.txt`。
+
 进入命令面板，点击`CMake: Configure`配置G++编译器；
+
 点击`CMake: Build`编译程序；
+
 打开`src/main.cpp`，选择调试配置`(gdb) CMake Debug`进行调试。
   
 ## 4. 项目结构
