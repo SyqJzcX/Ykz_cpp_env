@@ -1,0 +1,4 @@
+/workspaces/doc_cmake_proj/build/CMakeFiles/max_lib.dir
+/workspaces/doc_cmake_proj/build/CMakeFiles/MyCMakeProject.dir
+/workspaces/doc_cmake_proj/build/CMakeFiles/edit_cache.dir
+/workspaces/doc_cmake_proj/build/CMakeFiles/rebuild_cache.dir

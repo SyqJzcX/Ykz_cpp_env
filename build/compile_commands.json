@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/doc_cmake_proj/build",
+  "command": "/usr/bin/g++ -I/workspaces/doc_cmake_proj/include -g -std=gnu++11 -o CMakeFiles/max_lib.dir/src/lib/max.cpp.o -c /workspaces/doc_cmake_proj/src/lib/max.cpp",
+  "file": "/workspaces/doc_cmake_proj/src/lib/max.cpp"
+},
+{
+  "directory": "/workspaces/doc_cmake_proj/build",
+  "command": "/usr/bin/g++ -I/workspaces/doc_cmake_proj/include -g -std=gnu++11 -o CMakeFiles/MyCMakeProject.dir/src/main.cpp.o -c /workspaces/doc_cmake_proj/src/main.cpp",
+  "file": "/workspaces/doc_cmake_proj/src/main.cpp"
+}
+]

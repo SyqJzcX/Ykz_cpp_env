@@ -1,0 +1,5 @@
+# ninja log v5
+6	68	1749968658465682100	CMakeFiles/max_lib.dir/src/lib/max.cpp.o	d4ba8108988e750e
+77	120	1749968658522770800	libmax_lib.a	f92ddbc6a705d036
+7	291	1749968658689901100	CMakeFiles/MyCMakeProject.dir/src/main.cpp.o	be504ae45154776
+309	401	1749968658802102300	MyCMakeProject	e2d819fabae72afd

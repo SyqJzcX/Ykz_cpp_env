@@ -1,0 +1,38 @@
+{
+    "name": "C/C++ Workplace",  // Dev Container 的显示名称
+    "image": "cpp-Workplace:v2-cmake4.0-gpp11.4-ubuntu22.04",  // 直接指定镜像名称和标签（没有 build 就加载现成的，有 build 就重新构建）
+    "runArgs": [
+        "--gpus=all",  // 添加 GPU 支持
+        "--shm-size=8g",  // 设置共享内存大小
+        "--name", "my-cpp-container"  // 手动指定容器名称
+        // "--privileged"  // 添加特权模式（使容器拥有宿主机的所有权限）
+    ],
+    "build": {
+        // Sets the run context to one level up instead of the .devcontainer folder.
+        "context": "..",
+        // Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+        "dockerfile": "Dockerfile",
+        "args": {
+            "IMAGE_NAME": "cpp-Workplace",  // 指定镜像名称
+            "IMAGE_TAG": "v2-cmake4.0-gpp11.4-ubuntu22.04",  // 指定镜像标签
+        }
+    },
+    // Dev Container 会进行对目录挂载与工作区进行默认设置
+    //      自动将工作目录挂载到容器内的 /workspaces/<项目名> 路径
+    //      自动打开在 /workspaces/<项目名> 目录
+    // "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "mounts": [  // 将本地目录挂载
+        "source=${localWorkspaceFolder}/,target=/workspaces/,type=bind"  // 绑定挂载 Docker 工作区（当前工作区）
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [  // 安装容器中需要的 Vscode 扩展
+                // C++
+                "MS-CEINTL.vscode-language-pack-zh-hans",
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cpptools-themes"
+            ]
+        }
+    }
+}
