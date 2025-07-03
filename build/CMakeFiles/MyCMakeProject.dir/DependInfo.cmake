@@ -8,12 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/doc_cmake_proj/src/main.cpp" "CMakeFiles/MyCMakeProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyCMakeProject.dir/src/main.cpp.o.d"
+  "D:/桌面文件/cpp_/src/main.cpp" "CMakeFiles/MyCMakeProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/MyCMakeProject.dir/src/main.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/workspaces/doc_cmake_proj/build/CMakeFiles/max_lib.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

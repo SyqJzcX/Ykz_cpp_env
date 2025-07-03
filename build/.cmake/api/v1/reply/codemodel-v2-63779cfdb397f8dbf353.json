@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MyCMakeProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MyCMakeProject-Debug-95aa5fbc6e6d0ff88182.json",
+					"jsonFile" : "target-MyCMakeProject-Debug-83560470233e0720fec9.json",
 					"name" : "MyCMakeProject",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "max_lib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-max_lib-Debug-daeb704d261be3b56e0c.json",
+					"jsonFile" : "target-max_lib-Debug-a754cab1c036cdfcb1f2.json",
 					"name" : "max_lib",
 					"projectIndex" : 0
 				}
@@ -58,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/workspaces/doc_cmake_proj/build",
-		"source" : "/workspaces/doc_cmake_proj"
+		"build" : "D:/\u684c\u9762\u6587\u4ef6/cpp_/build",
+		"source" : "D:/\u684c\u9762\u6587\u4ef6/cpp_"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 8
 	}
 }

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/max_lib.dir/src/lib/max.cpp.o"
-  "CMakeFiles/max_lib.dir/src/lib/max.cpp.o.d"
+  "CMakeFiles/max_lib.dir/src/lib/max.cpp.obj"
+  "CMakeFiles/max_lib.dir/src/lib/max.cpp.obj.d"
   "libmax_lib.a"
   "libmax_lib.pdb"
 )

@@ -43,17 +43,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++11"
+					"fragment" : "-g -std=gnu++11"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/workspaces/doc_cmake_proj/include"
+					"path" : "D:/\u684c\u9762\u6587\u4ef6/cpp_/include"
 				}
 			],
 			"language" : "CXX",
